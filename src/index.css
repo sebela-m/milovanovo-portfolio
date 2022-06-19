@@ -1,0 +1,207 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-family: Verdana, sans-serif;
+  }
+
+  h1 {
+    font-family: TRENTO;
+  }
+  h2 {
+    font-family: TRENTO;
+  }
+  h3 {
+    font-family: TRENTO;
+  }
+  canvas {
+    padding:0 !important;
+    margin:0 !important;
+    display:absolute !important;
+    top:0;
+    left:0;
+    
+    width:160px !important;
+    height:160px !important;
+  }
+
+  #RealPortrait {
+      background-image: url(./assets/portrait.jpg);
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-position: center;
+  }
+}
+
+@font-face {
+  font-family: 'TRENTO';
+  src: url('./assets/font/TRENTO.eot');
+  src: url('./assets/font/TRENTO.eot?#iefix') format('embedded-opentype'),
+      url('./assets/font/TRENTO.woff2') format('woff2'),
+      url('./assets/font/TRENTO.woff') format('woff'),
+      url('./assets/font/TRENTO.ttf') format('truetype'),
+      url('./assets/font/TRENTO.svg#TRENTO') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+/*
+@import url('https://fonts.googleapis.com/css?family=Lato:100&display=swap');
+  body {
+    background-color: #000000;
+    margin: 0;
+    padding: 0;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    overflow: -moz-scrollbars-vertical; 
+    overflow-y: scroll;
+  }
+
+
+
+  button {
+    width: 150px;
+    height: 50px;
+    cursor: pointer;
+    font-size: 4px;
+    font-weight: bold;
+    font-family: 'TRENTO';
+    color: black;
+    background: white;
+    border: 1px solid black;
+    box-shadow: 1px 1px 0 black,
+      -1px -1px 0 black,
+      -1px 1px 0 black,
+      1px -1px 0 black;
+    transition: 500ms ease-in-out;
+  }
+  
+  button:hover {
+    box-shadow: 6px 1px 0 black, -6px -1px 0 black;
+  }
+  
+  button:focus {
+    outline: none;
+  }
+
+canvas {
+  display:absolute;
+  top:0;
+  left:0;
+  
+  width:160px !important;
+  height:160px !important;
+}
+
+
+td {
+  width:200px;
+}
+
+
+@font-face {
+  font-family: 'TRENTO';
+  src: url('./assets/font/TRENTO.eot');
+  src: url('./assets/font/TRENTO.eot?#iefix') format('embedded-opentype'),
+      url('./assets/font/TRENTO.woff2') format('woff2'),
+      url('./assets/font/TRENTO.woff') format('woff'),
+      url('./assets/font/TRENTO.ttf') format('truetype'),
+      url('./assets/font/TRENTO.svg#TRENTO') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+img {
+  z-index: 9999999;
+}
+
+span, p {
+  margin: 0;
+  padding: 0;
+}
+
+@media only screen and (max-width: 900px) {
+  /* For mobile phones: */
+  /*
+  table {
+    margin: 0 auto;
+  }
+
+  h1 {  
+    font-weight: bold;
+    font-size: 12px;
+    text-align: center;
+    font-family: 'TRENTO';
+    margin: 0;
+    padding: 0;
+    color: rgba(255, 255, 255, 0.7);
+    text-shadow: -2px 2px 1px rgba(0, 0, 0, 0.4);
+  }
+  h2 {  
+    font-size: 8px;
+    text-align: center;
+    font-family: 'TRENTO';
+    margin: 0;
+    padding: 0;
+  }
+  h3 {  
+    font-size: 4px;
+    font-family: 'TRENTO';
+    cursor: pointer;
+    margin: 0;
+    padding: 0;
+  }
+  h4 {  
+    font-size: 3px;
+    font-family: 'TRENTO';
+    cursor: pointer;
+    margin: 0;
+    padding: 0;
+  }
+
+}
+
+@media only screen and (min-width: 900px) {*/
+  /* For desktop: */
+/*  table {
+  }
+
+  h1 {  
+    font-weight: bold;
+    font-size: 12px;
+    text-align: left;
+    font-family: 'TRENTO';
+    margin: 0;
+    padding: 0;
+    color: rgba(255, 255, 255, 0.7);
+    text-shadow: -2px 2px 1px rgba(0, 0, 0, 0.4);
+  }
+  h2 {  
+    font-size: 8px;
+    text-align: left;
+    font-family: 'TRENTO';
+    margin: 0;
+    padding: 0;
+  }
+  h3 {  
+    font-size: 4px;
+    font-family: 'TRENTO';
+    cursor: pointer;
+    margin: 0;
+    padding: 0;
+  }
+  h4 {  
+    font-size: 3px;
+    font-family: 'TRENTO';
+    cursor: pointer;
+    margin: 0;
+    padding: 0;
+  }
+
+
+}
+*/

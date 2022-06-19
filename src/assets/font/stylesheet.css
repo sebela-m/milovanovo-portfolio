@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'TRENTO';
+    src: url('TRENTO.eot');
+    src: url('TRENTO.eot?#iefix') format('embedded-opentype'),
+        url('TRENTO.woff2') format('woff2'),
+        url('TRENTO.woff') format('woff'),
+        url('TRENTO.ttf') format('truetype'),
+        url('TRENTO.svg#TRENTO') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

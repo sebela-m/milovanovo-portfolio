@@ -1,0 +1,61 @@
+{
+    "menu.cv" : "CV",
+    "menu.myProjects" : "Moje projekty",
+    "menu.socialSites" : "Sociální sítě",
+   
+    "app.title1" : "Milovanovo",
+    "app.title2" : "Portfólio",
+
+    "cv.name" : "Bc. Milan Šebela",
+    "cv.role" : "Fullstack web and WebGL developer",
+
+    "cv.technicalSkills" : "Technické znalosti",
+    "cv.programmingLanguages" : "Programovací jazyky a frameworky",
+    "cv.technology": "Technologie",
+    "cv.skillLevel": "Úroveň",
+    "cv.engines":"Grafické a herní enginy",
+    "cv.databases":"Databáze",
+    "cv.graphics":"Grafika",
+
+    "cv.workExperiences": "Pracovní zkušenosti",
+    
+    "cv.3.name": "Frontend Engineer",
+    "cv.3.description": "Vytváření react stránek a komponent podle Figma designu a připojení na backend rest API. (TypeScript, React, Tailwindcss, Node.js, Remix.js)",
+    "cv.3.date": "Únor 2022 - Květen 2022",
+
+    "cv.2.name": "Java developer",
+    "cv.2.description": "Správa a vývoj řady aplikací v oblasti energetiky. (React, J2EE, Java Spring, JBoss)",
+    "cv.2.date": "Září 2016 - Únor 2022",
+
+    "cv.1.name": "Studentská Stáž",
+    "cv.1.date": "Červen 2016 - Září 2016",
+
+    "cv.education": "Vzdělání",
+
+    "cv.education.1.schoolName":"Vysoká škola báňská - Technická univerzita Ostrava",
+    "cv.education.1.description":"Bc., Informační Technologie",
+    "cv.education.1.date":"2013 - 2017",
+    "cv.education.1.add":"Bakalárská práce na téma Moderní Fyzikální Enginy pro WebGL",
+
+    "cv.education.2.schoolName":"Technical Highschool Karviná",
+    "cv.education.2.description":"Informační technologie",
+    "cv.education.2.date":"2009 - 2013",
+
+    "cv.other": "Ostatní",
+    "cv.driverLicense":"Řidičský průkaz skupiny B",
+    
+    "myProjects.portfolio.title": "Milovanovo-Portfolio",
+    "myProjects.portfolio.description": "Zde se můžete podívat na kód téhle stránky",
+
+    "myProjects.bachelor.title" : "Bakalářská práce na téma 'Moderní fyzikální enginy pro WebGL' (2016)",
+    "myProjects.bachelor.description" : "Bakalářská, kde jsem zkoumal 5 javascriptových fyzikálních enginů pro WebGL a následně je porovnával. WebGL byla v té době poměrně nová technologie a tyto fyzikální enginy v té době nebyly moc dobře zdokumentované, ani odlazené. Místo toho abych si to zjednodušil a udělal pár ukázkových scén kde využívám všech funkcí fyzikálního enginu tak jsem udělal jednu aplikaci, kde můžete přepínat mezi jednotlivými enginy a ukázkami.",
+    "myProjects.bachelor.appPart" : "Aplikace",
+    "myProjects.bachelor.textPart" : "Textová část",
+
+    "myProjects.deadwebsite.title" : "Dead-Website (2020 - současnost)",
+    "myProjects.deadwebsite.description" : "Projekt na kterém dělám pouze já sám ve svém volném čase. Jedná se WebGL hru. Webová část je vytvořená v technologii React s databází na Firebase a WebGL část je vytvořená v Unity.",
+    "myProjects.deadwebsite.demo" : "Demo",
+    "myProjects.deadwebsite.devlog" : "Devlog (vývojařský deník)",
+
+    "footer.copyright" : "Všechna práva vyhrazena"
+}

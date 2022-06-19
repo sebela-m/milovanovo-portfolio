@@ -1,0 +1,71 @@
+.App {
+  position:absolute;
+  width:100%;
+  height:100%;
+  color: #ffffff;
+  padding: 0;
+  margin:0;
+}
+
+.LanguageBar {
+  position:absolute;
+  top:0;
+  right:0;
+  padding: 16px 16px;
+  margin:0px;
+}
+
+@media only screen and (max-width: 900px) {
+  /* For mobile phones: */
+  .Container {
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin:0;
+  }
+  
+  .Bars {
+    background-color:#ffffff;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin:auto;
+  }
+}
+
+
+@media only screen and (min-width: 900px) {
+  /* For desktop: */
+  .Container {
+    min-width: 768px;
+    max-width: 1200px;
+    min-height: 100%;
+    background-color:#ffffff;
+    margin:auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+
+  .Bars {
+      width: 100%;
+
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      margin:0;
+      padding:0;
+  }
+
+  
+  .Space {
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin:auto;
+    padding:0;
+  }
+}

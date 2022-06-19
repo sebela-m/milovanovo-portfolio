@@ -1,0 +1,54 @@
+{
+  "name": "milovanovo-portfolio",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@types/react": "^17.0.43",
+    "@types/react-dom": "^17.0.14",
+    "@types/react-leaflet": "^2.8.2",
+    "concurrently": "^7.1.0",
+    "detect-browser-language": "0.0.2",
+    "firebase": "^9.6.8",
+    "i18next": "^21.6.14",
+    "i18next-xhr-backend": "^3.2.2",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-i18next": "^11.15.6",
+    "react-reveal": "^1.2.2",
+    "react-scripts": "4.0.3",
+    "react-toastify": "^8.2.0",
+    "react-unity-webgl": "^8.8.0",
+    "tailwind": "^4.0.0",
+    "typescript": "^4.6.2"
+  },
+  "scripts": {
+    "dev": "concurrently \"react-scripts start\" \"npm run watchcss\"",
+    "watchcss": "npx tailwindcss -i ./src/index.css -o ./src/tailwind.css --watch",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.4",
+    "postcss": "^8.4.12",
+    "tailwindcss": "^3.0.23"
+  }
+}

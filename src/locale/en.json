@@ -1,0 +1,61 @@
+{
+    "menu.cv" : "CV",
+    "menu.myProjects" : "My projects",
+    "menu.socialSites" : "Social medias",
+   
+    "app.title1" : "Milovan's",
+    "app.title2" : "Portfolio",
+
+    "cv.name" : "Bc. Milan Šebela",
+    "cv.role" : "Fullstack web and WebGL developer",
+
+    "cv.technicalSkills" : "Technical skills",
+    "cv.programmingLanguages" : "Programming languages and frameworks",
+    "cv.technology": "Technology",
+    "cv.skillLevel": "Skill level",
+    "cv.engines":"Graphic and gaming engines",
+    "cv.databases":"Database",
+    "cv.graphics":"Graphics",
+
+    "cv.workExperiences": "Work experience",
+    
+    "cv.3.name": "Frontend Engineer",
+    "cv.3.description": "Creating react websites and components according to the Figma design and connecting them to the backend rest API. (TypeScript, React, Tailwindcss, Node.js, Remix.js)",
+    "cv.3.date": "February 2022 - May 2022",
+
+    "cv.2.name": "Java developer",
+    "cv.2.description": "Maintaining and developing applications in field of energetics. (React, J2EE, Java Spring, JBoss)",
+    "cv.2.date": "September 2016 - February 2022",
+
+    "cv.1.name": "Student Intership",
+    "cv.1.date": "June 2016 - September 2016",
+
+    "cv.education": "Education",
+
+    "cv.education.1.schoolName":"Technical University of Ostrava",
+    "cv.education.1.description":"Bachelor, Information Technology",
+    "cv.education.1.date":"2013 - 2017",
+    "cv.education.1.add":"Bachelor thesis on topic of Modern Physics engines for WebGL",
+
+    "cv.education.2.schoolName":"Technical Highschool Karviná",
+    "cv.education.2.description":"Information technology",
+    "cv.education.2.date":"2009 - 2013",
+
+    "cv.other": "Other skills",
+    "cv.driverLicense":"Driver license type B",
+
+    "myProjects.portfolio.title": "Milovanovo-Portfolio",
+    "myProjects.portfolio.description": "You can take a look on the code of this page",
+
+    "myProjects.bachelor.title" : "Bachelor thesis on topic of 'Modern Physics engines for WebGL' (2016)",
+    "myProjects.bachelor.description" : "Bachelor thesis where I researched 5 javascript physics engines for WebGL and then compared them. WebGL was a relatively new technology at the time and these physics engines were not well documented or debugged at the time. Instead of doing a few sample scenes where I use all the functions of the physics engine I made one application where you can switch between individual engines and demos.",
+    "myProjects.bachelor.appPart" : "Application part",
+    "myProjects.bachelor.textPart" : "Text part",
+
+    "myProjects.deadwebsite.title" : "Dead-Website (2020 - present)",
+    "myProjects.deadwebsite.description" : "A project that only I do alone in my free time. This is a WebGL game. The web part is created in React technology with a database on Firebase and the WebGL part is created in Unity.",
+    "myProjects.deadwebsite.demo" : "Demo",
+    "myProjects.deadwebsite.devlog" : "Devlog",
+
+    "footer.copyright" : "All rights reserved"
+}
