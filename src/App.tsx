@@ -2,11 +2,13 @@ import React, { useState, useRef } from 'react';
 
 import Footer from './component/Footer';
 import MenuBar from './component/MenuBar';
-import ContentBar from './component/ContentBar';
 
 import LanguageButton from './component/LanguageButton'
 
 import i18n from './component/i18n';
+import ResumeContent from 'component/ResumeContent';
+import ProjectsContent from 'component/ProjectsContent';
+import SocialsContent from 'component/SocialsContent';
 
 const App:React.FC = () => {
 
@@ -16,10 +18,6 @@ const App:React.FC = () => {
   const cvRef = useRef<HTMLDivElement>(null);
   const projectsRef = useRef<HTMLDivElement>(null);
   const socialRef = useRef<HTMLDivElement>(null);
-
-  
-
-
   
   const handleLanguageChange = () => {
     if(i18n.language === "cs") {
@@ -42,13 +40,13 @@ const App:React.FC = () => {
               socialRef={ socialRef } />
         </div>
         <div ref={cvRef}>
-          <ContentBar currentMenu = {1} />
+          <ResumeContent />
         </div>
         <div ref={projectsRef}>
-          <ContentBar currentMenu = {2} />
+          <ProjectsContent />
         </div>
         <div ref={socialRef}>
-          <ContentBar currentMenu = {3} />
+          <SocialsContent />
         </div>
         <div className = "m-auto"></div>
         <Footer />

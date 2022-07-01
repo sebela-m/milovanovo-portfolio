@@ -18,17 +18,19 @@ import Portrait, { PortraitHandle } from './Portrait'
 
 import { useTranslation } from 'react-i18next';
 
-// @ts-ignore
 import Fade from 'react-reveal/Fade';
+import ResumeIcon from 'icons/ResumeIcon';
+import ProjectsIcon from 'icons/ProjectsIcon';
+import SocialIcon from 'icons/SocialIcon';
 
-interface LeftBarProps {
+interface MenuBarProps {
     menuRef: React.RefObject<HTMLDivElement>;
     cvRef: React.RefObject<HTMLDivElement>;
     projectsRef: React.RefObject<HTMLDivElement>;
     socialRef: React.RefObject<HTMLDivElement>;
 }
 
-const LeftBar:React.FC<LeftBarProps> = (props) => {
+const MenuBar:React.FC<MenuBarProps> = (props) => {
 
     const { t } = useTranslation();
     
@@ -144,39 +146,44 @@ const LeftBar:React.FC<LeftBarProps> = (props) => {
             </div>
 
             <div className="w-full flex justify-center px-4 py-8 bg-gradient-to-b from-white to-zinc-100">
-                <h1 className="text-center leading-2 sm:leading-3">
+                <h1 className="text-center leading-[0.5rem] opacity-50">
                     <Fade up>
                         <div>
-                            <span className="text-[0.7rem] text-amber-100 text-semibold">{t('app.title1')}</span>
+                            <span className="text-[0.7rem] text-amber-200 text-semibold leading-2 hover:animate-pulse">{t('app.title1')}</span>
                         </div>
                     </Fade>
                     <br />
                     <Fade down>
                         <div>
-                            <span className="text-[0.75rem] text-amber-200 text-bold">{t('app.title2')}</span>
+                            <span className="text-[0.75rem] text-amber-300 text-bold leading-2 hover:animate-pulse">{t('app.title2')}</span>
                         </div>
                     </Fade>
                 </h1>
             </div>
+
             <div className = "w-full px-4 py-4 grid grid-cols-3 gap-4 bg-gradient-to-b from-zinc-100 to-zinc-200" >
                 <Fade up>
                     <div className = "w-full flex justify-center align-center">
-                        <button className = "w-full rounded border-2 border-amber-100 hover:animate-pulse hover:shadow-2xl" type="button" onClick = { () => handleScroll(props.cvRef) }>
-                            <h3 className="text-[0.3rem] text-extrabold text-zinc-800 hover:text-amber-800 leading-8">{t('menu.cv')}</h3>
+                        <button className = "transition-colors ease-in-out duration-500 w-full flex items-center justify-center rounded border-2 border-amber-100 hover:border-amber-800 hover:animate-pulse hover:shadow-2xl text-zinc-800 hover:text-amber-800 " type="button" onClick = { () => handleScroll(props.cvRef) }>
+                            <ResumeIcon className="mx-1 h-8 fill-current shrink-0 " />
+                            <h3 className = "w-full mx-1 text-[0.20rem] md:text-[0.275rem] text-extrabold leading-6">{t('menu.cv')}</h3>
                         </button>
                     </div>
                     <div className = "w-full flex justify-center align-center">
-                        <button className = "w-full rounded border-2 border-amber-100 hover:animate-pulse hover:shadow-2xl" type="button" onClick = { () => handleScroll(props.projectsRef) }>
-                            <h3 className="text-[0.3rem] text-extrabold text-zinc-800 hover:text-amber-800 leading-8">{t('menu.myProjects')}</h3>
+                        <button className = "transition-colors ease-in-out duration-500 w-full flex items-center justify-center rounded border-2 border-amber-100 hover:border-amber-800 hover:animate-pulse hover:shadow-2xl text-zinc-800 hover:text-amber-800 " type="button" onClick = { () => handleScroll(props.projectsRef) }>
+                            <ProjectsIcon className="mx-1 h-8 fill-current shrink-0 " />
+                            <h3 className = "w-full mx-1 text-[0.20rem] md:text-[0.275rem] text-extrabold leading-6">{t('menu.myProjects')}</h3>
                         </button>
                     </div>
                     <div className = "w-full flex justify-center align-center">     
-                        <button className = "w-full rounded border-2 border-amber-100 hover:animate-pulse hover:shadow-2xl" type="button" onClick = { () => handleScroll(props.socialRef) }>
-                            <h3 className="text-[0.3rem] text-extrabold text-zinc-800 hover:text-amber-800 leading-8">{t('menu.socialSites')}</h3>
+                        <button className = "transition-colors ease-in-out duration-500 w-full flex items-center justify-center rounded border-2 border-amber-100 hover:border-amber-800 hover:animate-pulse hover:shadow-2xl text-zinc-800 hover:text-amber-800 " type="button" onClick = { () => handleScroll(props.socialRef) }>
+                            <SocialIcon className="mx-1 h-9 fill-current shrink-0 " />
+                            <h3 className = "w-full mx-1 text-[0.20rem] md:text-[0.275rem] text-extrabold leading-6">{t('menu.socialSites')}</h3>
                         </button>
                     </div>
                 </Fade>
             </div>
+
             <div className="w-full flex justify-center px-2 py-4 bg-gradient-to-b from-zinc-200 to-zinc-400 shadow-2xl">
                 
             </div>
@@ -184,4 +191,4 @@ const LeftBar:React.FC<LeftBarProps> = (props) => {
     );
 }
 
-export default LeftBar;
+export default MenuBar;
