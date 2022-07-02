@@ -13,8 +13,7 @@ const unityContext = new UnityContext({
 });
 
 export interface PortraitProps {
-    width: number;
-    height: number;
+
 }
 
 export type PortraitHandle = {

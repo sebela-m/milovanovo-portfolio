@@ -14,53 +14,39 @@ const  ProjectsContent:React.FC = () => {
         <ContentBar
             title={t('menu.myProjects')}
         >
-            <div className = "text-white">
-                <div className="flex justify-center">
+            <div className = "max-w-2xl mx-auto text-zinc-800 text-xs md:text-base px-2 lg:px-0">
+                <div className="w-full">
                     <Fade up>
-                        <img alt="Honest work" width="240px" src={honestWork}></img>
+                        <img className="mx-auto w-[180px] sm:w-[220px] md:w-[260px] lg:w-[280px]" alt="Honest work" width="240px" src={honestWork}></img>
                     </Fade>
                 </div>
-                <br />
                 <Fade up>
-                    <h3 className="text-[0.25rem] text-amber-300 leading-5">{t('myProjects.portfolio.title')}</h3>
+                    <h4 className="text-white leading-4 mt-2 sm:mt-3 md:mt-4"><b>{t('myProjects.portfolio.title')}</b></h4>
                 </Fade>
-                <br />
                 <Fade up>
-                    <span>{t('myProjects.portfolio.description')} : <br /><a className="hover:text-amber-300" href="https://github.com/sebela-m/milovanovo-portfolio">github.com/sebela-m/milovanovo-portfolio</a></span>
+                    <p className="text-justify">{t('myProjects.portfolio.description')} : <br /><a className="text-amber-300 hover:text-amber-800" href="https://github.com/sebela-m/milovanovo-portfolio">github.com/sebela-m/milovanovo-portfolio</a></p>
                 </Fade>
-                <br />
-                <br />
-                <br />
                 <Fade up>
-                    <h3 className="text-[0.25rem] text-amber-300 leading-5">{t('myProjects.bachelor.title')}</h3>
+                    <h4 className="text-white leading-6 mt-2 sm:mt-3 md:mt-4"><b>{t('myProjects.bachelor.title')}</b></h4>
                 </Fade>
-                <br />
                 <Fade up>
-                    <span>{t('myProjects.bachelor.description')} <a className="hover:text-amber-300" href="https://dspace.vsb.cz/handle/10084/118763">https://dspace.vsb.cz/handle/10084/118763</a></span>
+                    <p className="text-justify">{t('myProjects.bachelor.description')} <a className="text-amber-300 hover:text-amber-800" href="https://dspace.vsb.cz/handle/10084/118763">https://dspace.vsb.cz/handle/10084/118763</a></p>
                 </Fade>
-                <br />
                 <Fade up>
-                    <span>{t('myProjects.bachelor.appPart')} : <a className="hover:text-amber-300" href="http://www.WebGLphysicslab.com/">www.WebGLphysicslab.com</a></span>
+                    <span>{t('myProjects.bachelor.appPart')} : <a className="text-amber-300 hover:text-amber-800" href="http://www.WebGLphysicslab.com/">www.WebGLphysicslab.com</a></span><br />
                 </Fade>
-                <br />
                 <Fade up>
-                    <span>{t('myProjects.bachelor.textPart')} : <a className="hover:text-amber-300" href="https://dspace.vsb.cz/bitstream/handle/10084/118763/SEB0064_FEI_B2647_2612R025_2017.pdf">SEB0064_FEI_B2647_2612R025_2017.pdf</a></span>
+                    <p>{t('myProjects.bachelor.textPart')} : <a className="text-amber-300 hover:text-amber-800" href="https://dspace.vsb.cz/bitstream/handle/10084/118763/SEB0064_FEI_B2647_2612R025_2017.pdf">SEB0064_FEI_B2647_2612R025_2017.pdf</a></p>
                 </Fade>
-                <br />
-                <br />
-                <br />
                 <Fade up>
-                    <h3 className="text-[0.25rem] text-amber-300 leading-5">{t('myProjects.deadwebsite.title')}</h3>
+                    <h4 className="text-white leading-5 mt-2 sm:mt-3 md:mt-4"><b>{t('myProjects.deadwebsite.title')}</b></h4>
                 </Fade>
-                <br />
                 <Fade up>
-                    <span>{t('myProjects.deadwebsite.description')}</span>
+                    <p className="text-justify">{t('myProjects.deadwebsite.description')}</p>
                 </Fade>
-                <br />
                 <Fade up>
-                    <span>{t('myProjects.deadwebsite.demo')} : </span><a className="hover:text-amber-300" href="http://www.dead-website.com/">www.dead-website.com</a>
+                    <span>{t('myProjects.deadwebsite.demo')} : </span><a className="text-amber-300 hover:text-amber-800" href="http://www.dead-website.com/">www.dead-website.com</a>
                 </Fade>
-                <br />
                 {
                 /*
                 <Fade up>

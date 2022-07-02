@@ -44,16 +44,16 @@
     "cv.other": "Other skills",
     "cv.driverLicense":"Driver license type B",
 
-    "myProjects.portfolio.title": "Milovanovo-Portfolio",
+    "myProjects.portfolio.title": "Milovanovo-Portfolio (2022)",
     "myProjects.portfolio.description": "You can take a look on the code of this page",
 
-    "myProjects.bachelor.title" : "Bachelor thesis on topic of 'Modern Physics engines for WebGL' (2016)",
-    "myProjects.bachelor.description" : "Bachelor thesis where I researched 5 javascript physics engines for WebGL and then compared them. WebGL was a relatively new technology at the time and these physics engines were not well documented or debugged at the time. Instead of doing a few sample scenes where I use all the functions of the physics engine I made one application where you can switch between individual engines and demos.",
+    "myProjects.bachelor.title" : "Bachelor thesis (2016)",
+    "myProjects.bachelor.description" : "Bachelor thesis on topic of 'Modern Physics engines for WebGL'  where I was researching 5 javascript physics engines for WebGL and comparing them.",
     "myProjects.bachelor.appPart" : "Application part",
     "myProjects.bachelor.textPart" : "Text part",
 
     "myProjects.deadwebsite.title" : "Dead-Website (2020 - present)",
-    "myProjects.deadwebsite.description" : "A project that only I do alone in my free time. This is a WebGL game. The web part is created in React technology with a database on Firebase and the WebGL part is created in Unity.",
+    "myProjects.deadwebsite.description" : "Project that I do alone in my free time. This is a WebGL game. The web part is created in React.js with a Firebase database and the WebGL part is created in Unity.",
     "myProjects.deadwebsite.demo" : "Demo",
     "myProjects.deadwebsite.devlog" : "Devlog",
 
