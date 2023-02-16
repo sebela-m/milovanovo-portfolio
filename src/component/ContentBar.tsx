@@ -18,7 +18,7 @@ const ContentBar:React.FC<ContentBarProps> = (props) => {
                     </div>
                 </Fade>
             </div>
-            <div className = { "w-full h-full flex flex-col bg-gradient-to-b from-zinc-500 to-zinc-400 items-stretch flex-grow" }>
+            <div className = { "w-full h-full flex flex-col bg-gradient-to-b from-zinc-500 to-zinc-400 items-stretch flex-grow sm:pr-0" }>
                 { props.children }  
             </div>
         </div>

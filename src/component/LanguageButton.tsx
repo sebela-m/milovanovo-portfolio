@@ -11,7 +11,7 @@ interface LanguageButtonProps {
 const LanguageButton:React.FC<LanguageButtonProps> = (props) => {
         
     return (
-        <div onClick = {(e) => { props.handleSettingsLanguageClick() }}>
+        <div className="opacity-40 hover:opacity-80"onClick = {(e) => { props.handleSettingsLanguageClick() }}>
             <img width = "64" height = "64"
                     src = { props.language === "cs" ? CzLanguage : EnLanguage } 
                     alt = "Language" />

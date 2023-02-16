@@ -46,7 +46,7 @@ const InstagramIcon:React.FC<InstagramIconProps> = (props) => {
 				c0,35.36,27.7,63.056,63.06,63.056h191.392c35.368,0,63.072-27.692,63.076-63.052V254C412.764,251.792,410.972,250,408.764,250z"
 			/>
         </svg>
-    )
+    );
 }
 
 export default InstagramIcon;

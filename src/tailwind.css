@@ -523,10 +523,6 @@ tr:last-child {
   right: 0px;
 }
 
-.top-16 {
-  top: 4rem;
-}
-
 .z-50 {
   z-index: 50;
 }
@@ -590,12 +586,8 @@ tr:last-child {
   margin-bottom: 0.5rem;
 }
 
-.mb-5 {
-  margin-bottom: 1.25rem;
-}
-
-.mt-5 {
-  margin-top: 1.25rem;
+.mb-1 {
+  margin-bottom: 0.25rem;
 }
 
 .block {
@@ -618,12 +610,12 @@ tr:last-child {
   display: none;
 }
 
-.h-\[10000px\] {
-  height: 10000px;
-}
-
 .h-full {
   height: 100%;
+}
+
+.h-\[12000px\] {
+  height: 12000px;
 }
 
 .h-\[160px\] {
@@ -868,17 +860,16 @@ tr:last-child {
   padding-bottom: 2rem;
 }
 
-.py-10 {
-  padding-top: 2.5rem;
-  padding-bottom: 2.5rem;
-}
-
 .pb-4 {
   padding-bottom: 1rem;
 }
 
 .pt-8 {
   padding-top: 2rem;
+}
+
+.pr-14 {
+  padding-right: 3.5rem;
 }
 
 .text-left {
@@ -981,8 +972,16 @@ tr:last-child {
   color: rgb(63 63 70 / var(--tw-text-opacity));
 }
 
+.opacity-40 {
+  opacity: 0.4;
+}
+
 .opacity-50 {
   opacity: 0.5;
+}
+
+.opacity-30 {
+  opacity: 0.3;
 }
 
 .shadow-2xl {
@@ -1066,8 +1065,8 @@ tr:last-child {
   color: rgb(146 64 14 / var(--tw-text-opacity));
 }
 
-.hover\:opacity-100:hover {
-  opacity: 1;
+.hover\:opacity-80:hover {
+  opacity: 0.8;
 }
 
 .hover\:shadow-2xl:hover {
@@ -1097,10 +1096,6 @@ tr:last-child {
     display: block;
   }
 
-  .sm\:h-full {
-    height: 100%;
-  }
-
   .sm\:w-\[220px\] {
     width: 220px;
   }
@@ -1117,6 +1112,10 @@ tr:last-child {
   .sm\:py-4 {
     padding-top: 1rem;
     padding-bottom: 1rem;
+  }
+
+  .sm\:pr-0 {
+    padding-right: 0px;
   }
 
   .sm\:text-\[0\.16rem\] {
@@ -1142,10 +1141,6 @@ tr:last-child {
 }
 
 @media (min-width: 768px) {
-  .md\:top-0 {
-    top: 0px;
-  }
-
   .md\:mt-4 {
     margin-top: 1rem;
   }
@@ -1177,6 +1172,11 @@ tr:last-child {
   .md\:py-8 {
     padding-top: 2rem;
     padding-bottom: 2rem;
+  }
+
+  .md\:py-6 {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
   }
 
   .md\:text-\[0\.18rem\] {

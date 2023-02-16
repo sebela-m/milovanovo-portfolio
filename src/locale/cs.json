@@ -16,12 +16,21 @@
     "cv.engines":"Grafické a herní enginy",
     "cv.databases":"Databáze",
     "cv.graphics":"Grafika",
+    "cv.devops":"DevOps",
 
     "cv.workExperiences": "Pracovní zkušenosti",
-    
+
+    "cv.5.name": "Senior java developer",
+    "cv.5.description": "Opravy chyb, psaní testů a vývoj nových doplňků pro backendovou aplikaci. (Java, Spring, Kubernetes, GraphQL, gRPC)",
+    "cv.5.date": "Červenec 2022 - Únor 2023",
+
+    "cv.4.name": "Unity/Android developer",
+    "cv.4.description": "Vytváření ukázkových aplikací pro rozšířenou realitu na embedded zařízení. (Unity, Android studio)",
+    "cv.4.date": "Květen 2022 - Červenec 2022",
+
     "cv.3.name": "Frontend Engineer",
-    "cv.3.description": "Vytváření react stránek a komponent podle designu ve Figmě a propojování s backend Rest API. (TypeScript, React, Tailwindcss, Node.js, Remix.js)",
-    "cv.3.date": "Únor 2022 - Květen 2022",
+    "cv.3.description": "Vytváření stránek a komponent v React.js podle designu ve Figmě a propojovení s backend Rest API. (TypeScript, React, Tailwindcss, Node.js, Remix.js)",
+    "cv.3.date": "Únor 2022 - Červen 2022",
 
     "cv.2.name": "Java developer",
     "cv.2.description": "Správa a vývoj řady aplikací v oblasti energetiky. (React, J2EE, Java Spring, JBoss)",

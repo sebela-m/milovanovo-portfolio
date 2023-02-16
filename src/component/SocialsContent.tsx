@@ -25,13 +25,15 @@ const SocialsContent:React.FC = () => {
                     </a>
                 </Fade>
                 <Fade up>
-                    <div className="grid grid-cols-2 lg:grid-cols-4 gap-2 mx-auto py-8">
+                    <div className="mx-auto py-8">
                         <a 
                             className="transition-colors ease-in-out duration-500 hover:animate-pulse fill-current text-zinc-800 hover:text-amber-800" 
                             href="https://www.linkedin.com/in/milan-%C5%A1ebela-759a05b8/"
                         >
                             <LinkedInIcon className="h-24" />
                         </a>
+                        {
+                            /* grid grid-cols-2 lg:grid-cols-4 gap-2 
                         <a 
                             className="transition-colors ease-in-out duration-500 hover:animate-pulse fill-current text-zinc-800 hover:text-amber-800" 
                             href="https://www.facebook.com/MilovanShmitec"
@@ -50,6 +52,8 @@ const SocialsContent:React.FC = () => {
                         >
                             <TwitchIcon className="h-24" />
                         </a>
+                            */
+                        }
                     </div>
                 </Fade>
                 </div>

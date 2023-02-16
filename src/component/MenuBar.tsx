@@ -36,8 +36,8 @@ const MenuBar:React.FC<MenuBarProps> = (props) => {
     const [portrait1ClickCount, setPortrait1ClickCount] = useState(0);
     const [portrait2ClickCount, setPortrait2ClickCount] = useState(0);
     
-    const portrait1Cinks = Math.floor(Math.random() * 10) + 10;
-    const portrait2Cinks = Math.floor(Math.random() * 10) + 10;
+    const [portrait1Cinks, setPortrait1Cinks] = useState(Math.floor(Math.random() * 10) + 10);
+    const [portrait2Cinks, setPortrait2Cinks] = useState(Math.floor(Math.random() * 10) + 10);
 
     let portrait1 = portrait1ClickCount < portrait1Cinks ? goldenframe1 : goldenframe1Broken;
     let portrait2 = portrait2ClickCount < portrait2Cinks ? goldenframe2 : goldenframe2Broken;

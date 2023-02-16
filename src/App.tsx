@@ -22,6 +22,7 @@ const App:React.FC = () => {
       const onScroll = () => { scrollFunction() };
       window.removeEventListener('scroll', onScroll);
       window.addEventListener('scroll', onScroll);
+      scrollFunction();
       return () => window.removeEventListener('scroll', onScroll);
   }, []);
 
@@ -63,11 +64,21 @@ const App:React.FC = () => {
     } 
     else if ((window.pageYOffset >= 7000)
         && (window.pageYOffset < 8000)) {
-      setSlide(2);
-      setSubslide(-1);
+      setSlide(1);
+      setSubslide(6);
     } 
     else if ((window.pageYOffset >= 8000)
         && (window.pageYOffset < 9000)) {
+      setSlide(1);
+      setSubslide(7);
+    } 
+    else if ((window.pageYOffset >= 9000)
+        && (window.pageYOffset < 10000)) {
+      setSlide(2);
+      setSubslide(-1);
+    } 
+    else if ((window.pageYOffset >= 10000)
+        && (window.pageYOffset < 11000)) {
       setSlide(3);
       setSubslide(-1);
     } 
@@ -106,12 +117,18 @@ const App:React.FC = () => {
       else if(subslideNumber === 5) {
         window.scrollTo(0, 6000);
       } 
+      else if(subslideNumber === 6) {
+        window.scrollTo(0, 7000);
+      } 
+      else if(subslideNumber === 7) {
+        window.scrollTo(0, 8000);
+      } 
     }
     if (slideNumber === 2) {
-      window.scrollTo(0, 7000);
+      window.scrollTo(0, 9000);
     }
     if (slideNumber === 3) {
-      window.scrollTo(0, 8000);
+      window.scrollTo(0, 10000);
     } 
     setSlide(slideNumber);
     setSubslide(subslideNumber);
@@ -145,7 +162,7 @@ const App:React.FC = () => {
             <LanguageButton language = { currentLang }
                 handleSettingsLanguageClick = { handleLanguageChange } />
           </div>
-          <div className = "fixed sm:h-full top-16 md:top-0 right-0 mr-1 z-40 flex items-center" >
+          <div className = "fixed h-full top-0 right-0 mr-1 z-40 flex items-center" >
             <SlideButtons 
               slide={slide}
               subslide={subslide}
@@ -153,7 +170,7 @@ const App:React.FC = () => {
             />
           </div>
       </div>
-      <div className = "h-[10000px] z-10">
+      <div className = "h-[12000px] z-10">
       </div>
       
     </Fragment>

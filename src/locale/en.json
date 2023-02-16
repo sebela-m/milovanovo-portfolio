@@ -16,12 +16,21 @@
     "cv.engines":"Graphic and gaming engines",
     "cv.databases":"Database",
     "cv.graphics":"Graphics",
+    "cv.devops":"DevOps",
 
-    "cv.workExperiences": "Work experience",
+    "cv.workExperiences": "Work experiences",
     
+    "cv.5.name": "Senior java developer",
+    "cv.5.description": "Fixing bugs, writing tests and developing new features for backend application. (Java, Spring, Kubernetes, GraphQL, gRPC)",
+    "cv.5.date": "July 2022 - February 2023",
+
+    "cv.4.name": "Unity/Android developer",
+    "cv.4.description": "Creating demo applications for extended reality on embedded devices. (Unity, Android studio)",
+    "cv.4.date": "May 2022 - July 2022",
+
     "cv.3.name": "Frontend Engineer",
     "cv.3.description": "Creating react websites and components according to the Figma design and connecting them to the backend rest API. (TypeScript, React, Tailwindcss, Node.js, Remix.js)",
-    "cv.3.date": "February 2022 - May 2022",
+    "cv.3.date": "February 2022 - June 2022",
 
     "cv.2.name": "Java developer",
     "cv.2.description": "Maintaining and developing applications in field of energetics. (React, J2EE, Java Spring, JBoss)",
